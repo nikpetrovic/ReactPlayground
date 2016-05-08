@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header {
+  padding-top: 10px;
+  border-bottom: 1px solid #ccc;
+  border-top: 4px solid #08516E;
+  height: 115px;
+  background-color: #f6f6f6;
+}
+p {
+  margin:0;
+  font-size: 1em;
+  color: gray;
+  padding: 4px 0;
+}
+h1, h2, h3, h4, h5 {
+  color: gray;
+}
+
+div.popover {
+  z-index: 100;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 2px;
+}
